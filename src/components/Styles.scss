@@ -1,0 +1,178 @@
+.App{
+    background-color: #ffffff;
+    .header{
+        padding: 25px 0px;
+
+        .label{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: #000000;
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+        .btn{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            padding: 10px 25px;
+            background: #2C5F52;
+            border-radius: 35px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF;
+            float: right;
+        }
+    }
+    .home{
+
+        .label{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 63.2594px;
+            line-height: 87px;
+            color: #000000;
+        }
+        .outline{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            padding: 15px 30px;
+            padding-top:5px;
+            border: 1.7px dashed #2C5F52;
+            border-radius: 80.0031px;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 50px;
+            color: #2C5F52;
+        }
+        .outline-btn{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            padding: 4px;            
+            border: 2px dashed #000000;
+            border-radius: 50px;
+            display: inline-flex;
+            justify-content: center;
+            align-content: center;
+            button{
+                padding: 15px 50px;
+                background: #2C5F52;
+                border-radius: 35px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF;
+                border: none;
+            }
+        }
+        .boyImage{
+            float:right;
+            margin-right: -100px;
+        }
+    }
+    .buttonbox{
+        display: flex;
+        justify-content: space-between;
+        width: fit-content;
+        button{
+            padding: 15px 50px;
+            border: 1px solid #2C5F52;
+            border-radius: 70px;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+            color: #000000;
+        }
+
+        img{
+            height: 60px;
+            margin-left: 80px;
+        }
+    }
+    .orange-card{
+
+        padding: 8px;
+        border: 0.8px dashed #000000;
+        border-radius: 48.8px;
+        max-width: 652px;
+        margin: auto;
+
+        .card{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            padding: 0px;
+            background: #FFC0A1;
+            border-radius: 43.2px;
+            max-height: 72px;
+            .text1{
+                font-weight: 500;
+                font-size: 12.8px;
+                line-height: 15px !important;
+                color: #000000;
+            }
+            .text2{
+                font-weight: 400;
+                font-size: 9.6px;
+                line-height: 12px;
+                color: #000000;
+                margin-right: 20px;
+            }
+        }
+    }
+    .signuptext{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #2C5F52;
+    }
+    .footer{
+        margin: auto;
+        max-width: 722px;
+        display: flex;
+        justify-content: space-between;
+        .footer-card{
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+            .number{
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 49px;
+                color: #000000;
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+                margin-left: 5px;
+
+                .heading{
+                    font-family: 'DM Serif Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 21px;
+                    color: #000000;
+                }
+                .subheading{
+                    font-weight: 400;
+                    font-size: 8px;
+                    line-height: 12px;                
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:998px){
+        .mobile-hidden{
+            display: none !important;
+        }
+    }
+}
